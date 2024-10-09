@@ -81,74 +81,11 @@ h6,
   background-color: #d38933;
   color: var(--dark);
 }
-.footer{
-  background-color: #111111;
-}
-/*  */
-.btn-square {
-  width: 36px;
-  height: 36px;
-}
-
-.btn-sm-square {
-  width: 28px;
-  height: 28px;
-}
-
-.btn-lg-square {
-  width: 46px;
-  height: 46px;
-}
-
-.btn-square,
-.btn-sm-square,
-.btn-lg-square {
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-
-
-@keyframes action {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-15px);
-  }
-}
 
 .container-fluid.nav-bar {
   position: absolute;
   z-index: 9;
 }
-
-@media (max-width: 991.98px) {
-  .container-fluid.nav-bar {
-    position: relative;
-
-  }
-}
-
-/* .overlay-top::before,
-.overlay-bottom::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 15px;
-  left: 0;
-  z-index: 1;
-}
-
-.overlay-top::before {
-  top: -1px;
-  background: url(../img/overlay-top.png);
-}
-
-.overlay-bottom::after {
-  bottom: -1px;
-  background: url(../img/overlay-bottom.png);
-} */
 
 .carousel-caption {
   top: 0;
@@ -156,7 +93,6 @@ h6,
   right: 0;
   bottom: 0;
   background: rgba(51, 33, 29, 0.7);
-  z-index: 1;
 }
 
 .section-title {
@@ -189,22 +125,20 @@ h6,
   background: var(--primary);
 }
 
-
-
-
 .contact-form .help-block ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-/* .reservation,
-.page-header,
-.offer,
 .footer {
-  background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)),
-    url(../img/bg.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+  background-color: #111111;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .container-fluid.nav-bar {
+    position: relative;
+  }
+}
