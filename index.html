@@ -10,9 +10,20 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
+
   <body>
     <!-- navbar -->
     <div class="container-fluid p-0 nav-bar h-50">
@@ -42,10 +53,109 @@
     </div>
     <!-- ./navbar -->
 
+    <!-- carousel -->
+    <div class="container-fluid p-0 mb-5">
+      <div
+        id="blog-carousel"
+        class="carousel slide overlay-bottom"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="w-100"
+              src="assets/carousel-photos/carousel_image_1.png"
+              alt="Barista"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <h2 class="text-primary font-weight-medium m-0">
+                We Have Been Serving
+              </h2>
+              <h1 class="display-1 text-white m-0">COFFEE</h1>
+              <h2 class="text-white m-0">* SINCE 1950 *</h2>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="w-100"
+              src="assets/carousel-photos/carousel_image2.jpg"
+              alt="Coffee cap"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <h2 class="text-primary font-weight-medium m-0">
+                We Have Been Serving
+              </h2>
+              <h1 class="display-1 text-white m-0">COFFEE</h1>
+              <h2 class="text-white m-0">* SINCE 1950 *</h2>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="w-100"
+              src="assets/carousel-photos/carousel_image_3.png"
+              alt="Coffee machine"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <h2 class="text-primary font-weight-medium m-0">
+                We Have Been Serving
+              </h2>
+              <h1 class="display-1 text-white m-0">COFFEE</h1>
+              <h2 class="text-white m-0">* SINCE 1950 *</h2>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="w-100"
+              src="assets/carousel-photos/carousel_image4.jpg"
+              alt="Coffee cap"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <h2 class="text-primary font-weight-medium m-0">
+                We Have Been Serving
+              </h2>
+              <h1 class="display-1 text-white m-0">COFFEE</h1>
+              <h2 class="text-white m-0">* SINCE 1950 *</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <a
+          class="carousel-control-prev"
+          href="#blog-carousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#blog-carousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <!-- ./carousel -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   </body>
 </html>
