@@ -54,7 +54,7 @@
 
   <body>
     <!-- navbar -->
-    <div class="container-fluid p-0 nav-bar h-50">
+    <div class="container-fluid p-0 nav-bar z-3 h-50">
       <nav class="navbar navbar-expand-lg navbar-dark bg-none py-3">
         <a href="index.html" class="navbar-brand px-lg-4 m-0">
           <img src="assets/logo2.png" alt="company logo" class="navbar-logo" />
@@ -202,9 +202,14 @@
               ut. Labor diam sed ipsum et eirmod. Eos kasd eos dolor vero vero,
               lorem stet diam rebum. Ipsum amet sed vero dolor sea
             </p>
-            <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-4"
-              >Learn More</a
+            <button
+              type="button"
+              class="btn btn-secondary mt-4"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             >
+              Learn More
+            </button>
           </div>
           <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px">
             <div class="position-relative h-100">
@@ -235,9 +240,14 @@
               <i class="fa fa-check text-primary"></i>
               <span class="ml-4">Lorem ipsum dolor sit amet</span>
             </h5>
-            <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-4"
-              >Learn More</a
+            <button
+              type="button"
+              class="btn btn-primary mt-4"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             >
+              Learn More
+            </button>
           </div>
         </div>
       </div>
@@ -393,12 +403,15 @@
                   et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
                   takima erat tempor
                 </p>
-                <div class="d-flex justify-content-center">
-                  <a
-                    href=""
-                    class="btn btn-secondary font-weight-bold py-2 px-4 mt-4"
-                    >Learn More</a
+                <div class="d-flex justify-content-center mt-4">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
                   >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>
@@ -426,12 +439,15 @@
                   et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
                   takima erat tempor
                 </p>
-                <div class="d-flex justify-content-center">
-                  <a
-                    href=""
-                    class="btn btn-secondary font-weight-bold py-2 px-4 mt-4"
-                    >Learn More</a
+                <div class="d-flex justify-content-center mt-4">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
                   >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>
@@ -459,12 +475,20 @@
                   et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
                   takima erat tempor
                 </p>
-                <div class="d-flex justify-content-center">
-                  <a
-                    href=""
-                    class="btn btn-secondary font-weight-bold py-2 px-4 mt-4"
-                    >Learn More</a
+
+                <div
+                  class="d-flex justify-content-center mt-4"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
                   >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>
@@ -474,6 +498,63 @@
       </div>
     </div>
     <!-- ./coffee party -->
+
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4
+              id="exampleModalLabel"
+              class="text-primary text-uppercase w-100 text-center"
+            >
+              de Finibus Bonorum et Malorum
+            </h4>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row align-items-center mb-5">
+              <div class="col-sm-5">
+                <img
+                  class="img-fluid mb-3 mb-sm-0 rounded"
+                  src="assets/party.png"
+                  alt="a cup of coffee"
+                />
+              </div>
+              <div class="col-sm-7">
+                <p class="m-0 lh-base">
+                  Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et
+                  et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
+                  takima erat tempor
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ./modal -->
 
     <!-- footer -->
     <div

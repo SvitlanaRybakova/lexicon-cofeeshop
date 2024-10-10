@@ -84,7 +84,6 @@ h6,
 
 .container-fluid.nav-bar {
   position: absolute;
-  z-index: 9;
 }
 
 .carousel-caption {
@@ -134,8 +133,6 @@ h6,
 .footer {
   background-color: #111111;
 }
-
-
 
 @media (max-width: 991.98px) {
   .container-fluid.nav-bar {
